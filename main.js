@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-	///THE RSS PART
 	//Title of the blog
 	var TITLE = "JCI Vlaanderen";
 	//RSS url
@@ -52,5 +50,12 @@ $(document).ready(function() {
 		contentHTML += '<p/><a href="' + entries[selectedEntry].link + '">Read Entry on Site</a>';
 		$("#entryText", this).html(contentHTML);
 	});
-
 }); 
+
+function goHome(){
+	window.location = "index.html";
+}
+
+function goToRss(){
+	window.location = "rss.html";
+}
