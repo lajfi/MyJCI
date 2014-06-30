@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//Title of the blog
-	var TITLE = "JCI Vlaanderen";
+	var TITLE = "My JCI";
 	//RSS url
 	var RSS = "http://jci-vlaanderen.com/feed/";
 	//Stores entries
