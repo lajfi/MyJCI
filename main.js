@@ -55,7 +55,3 @@ $(document).ready(function() {
 function goHome(){
 	window.location = "index.html";
 }
-
-function goToRss(){
-	window.location = "rss.html";
-}

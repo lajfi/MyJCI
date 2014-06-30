@@ -15,13 +15,11 @@
 <div data-role="page" id="mainPage">
 
     <div data-role="header">
-        <h1></h1>
+        <h1>My JCI</h1>
     </div> 
 
-    <div data-role="content">    
-		<form>
-			<input type="button" value="RSS" onclick="goToRss()" />
-		</form>
+    <div data-role="content">
+    	<a href="rss.html" class="launcher"><img src="imgs/rss.png" border="0"/></a>    
     </div>
 
     <div data-role="footer">
@@ -45,3 +43,13 @@
 
 </body>
 </html>
+<script>
+	document.addEventListener("deviceready", onDeviceReady, false);
+//creates a listener that waits for the deviceready event and then fires onDevice ready function
+
+function onDeviceReady(){
+	alert('ready');
+}
+
+	
+</script>
